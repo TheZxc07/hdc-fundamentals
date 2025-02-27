@@ -1,0 +1,23 @@
+{
+  "number_of_runs": 100,
+  "csv_file": "../data/hdc_roles_fillers.csv",
+  "query_source": "Asado",
+  "query_target": "Russia",
+  "number_of_features": 5,
+  "hypervector_dimension": 1000,
+  "element_type": "float",
+  "element_type_options": {
+    "bipolar": {
+      "randomness": "uniform",
+      "similarity_check": "cosine similarity"
+    },
+    "binary": {
+      "randomness": "uniform",
+      "similarity_check": "hamming distance"
+    },
+    "float": {
+      "randomness": "uniform",
+      "similarity_check": "dot product"
+    }
+  }
+}
